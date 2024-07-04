@@ -19,12 +19,10 @@ SELECT id, name, pwd, email
 	WHERE id=#{id}
 </select>
 
-<!--  여기 주석 해제하면 됩니다~~~
 <insert id="createMember" parameterType="com.mysite.reactbbs.member.dto.param.CreateMemberParam">
 	INSERT INTO member(id, pwd, name, email)
 	VALUES(#{id}, #{pwd}, #{name}, #{email})
 </insert>
--->
 
 <!--<select id="login" parameterType="me.hellonayeon.backend.member.domain.Member"-->
 <!--	resultType="me.hellonayeon.backend.member.domain.Member">-->
