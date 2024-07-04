@@ -23,7 +23,7 @@ SELECT id, name, pwd, email
 	INSERT INTO member(id, pwd, name, email)
 	VALUES(#{id}, #{pwd}, #{name}, #{email})
 </insert>
-<!--  주석 해제했습니다 -->
+<!--  안녕하십니까 -->
 
 <!--<select id="login" parameterType="me.hellonayeon.backend.member.domain.Member"-->
 <!--	resultType="me.hellonayeon.backend.member.domain.Member">-->
